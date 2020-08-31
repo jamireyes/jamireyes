@@ -1,6 +1,5 @@
 <template>
   <div id="app" class="bg-gradient flex justify-center items-center w-full h-screen">
-    <!-- <router-view/> -->
     <div class="w-full flex flex-row container h-120">
         <side-card />
         <main-card />
