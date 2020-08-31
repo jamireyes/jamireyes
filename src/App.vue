@@ -1,6 +1,6 @@
 <template>
-  <div id="app" class="bg-gradient flex justify-center items-center w-full h-screen">
-    <div class="w-full flex flex-row container h-120">
+  <div id="app" class="bg-gradient flex justify-center items-start lg:items-center w-full h-screen">
+    <div class="w-full flex flex-col lg:flex-row container p-5">
         <side-card />
         <main-card />
     </div>
@@ -26,5 +26,6 @@ export default {
         background: #1FA2FF;  /* fallback for old browsers */
         background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  /* Chrome 10-25, Safari 5.1-6 */
         background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-size: cover;
     }
 </style>
