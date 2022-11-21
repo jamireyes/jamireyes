@@ -10,6 +10,6 @@ cd dist
 git init
 git add -A
 git commit -m 'New Deployment'
-git push --set-upstream -f $GIT_REPO_URL master
+git push --set-upstream -f $GIT_REPO_URL
 
 cd -
