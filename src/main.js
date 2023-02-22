@@ -5,7 +5,7 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
-Vue.config.productionTip = false
+Vue.config.productionTip = true
 
 Vue.component('side-card', require('./components/side-card.vue').default)
 Vue.component('main-card', require('./components/main-card.vue').default)
@@ -13,6 +13,7 @@ Vue.component('personal-info', require('./components/personal-info.vue').default
 Vue.component('educational-bg', require('./components/educational-bg.vue').default)
 Vue.component('skills', require('./components/skills.vue').default)
 Vue.component('projects', require('./components/projects.vue').default)
+Vue.component('alert', require('./components/alert.vue').default)
 
 new Vue({
   router,
