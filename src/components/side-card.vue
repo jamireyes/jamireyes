@@ -2,7 +2,7 @@
     <div class="bg-white w-full lg:w-1/4 h-auto m-2 rounded-lg p-10 shadow-lg">
         <div class="flex flex-col justify-center items-center">
             <img class="rounded-full w-40 h-40 flex items-center justify-center" src="../assets/img/profile-pic.jpg" alt="profile-pic">
-            <h1 class="pt-8 text-2xl font-semibold"><span class="font-medium">Jami</span> Reyes</h1>
+            <h1 class="pt-8 text-xl md:text-md font-medium">Jami Reyes</h1>
             <div class="bg-gray-400 text-gray-800 font-medium text-xs rounded-full p-2 px-3 my-5">
                 Web Developer
             </div>

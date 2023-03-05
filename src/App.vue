@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="relative bg-gradient flex justify-center items-start lg:items-center w-full h-screen">
+  <div id="app" class="relative bg-gradient flex justify-center items-start lg:items-center w-full lg:h-screen h-100">
     <div class="w-full flex flex-col lg:flex-row container p-5">
         <side-card />
         <main-card />
