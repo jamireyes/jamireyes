@@ -4,6 +4,7 @@
             <div class="w-full lg:w-2/3">
                 <personal-info />
                 <educational-bg />
+                <educational-bg />
             </div>
             <div class="w-full lg:w-1/2">
                 <projects />
@@ -17,6 +18,6 @@
 
 <script>
 export default {
-    name: "main-card"
-}
+    name: "main-card",
+};
 </script>
